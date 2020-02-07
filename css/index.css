@@ -420,20 +420,20 @@ header .header-content h2 {
   }
 }
 .home .content-pick .btn-sun {
-  background-color: #A2CCDA;
+  background-color: #FFF57B;
   animation-name: sun;
   animation-duration: 5s;
-  animation-iteration-count: 10;
+  animation-iteration-count: 3;
 }
 .home .content-pick .btn-mnt {
   background-color: #c0c6cb;
   animation-name: mnt;
   animation-duration: 5s;
-  animation-iteration-count: 10;
+  animation-iteration-count: 3;
 }
 .home .content-pick .btn-isl {
   background-color: #abf6c3;
   animation-name: isl;
   animation-duration: 5s;
-  animation-iteration-count: 10;
+  animation-iteration-count: 3;
 }
