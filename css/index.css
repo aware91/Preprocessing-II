@@ -1,3 +1,60 @@
+@keyframes sun {
+  0% {
+    background-color: #FFF57B;
+  }
+  20% {
+    background-color: #FFE469;
+  }
+  40% {
+    background-color: #FECC51;
+  }
+  60% {
+    background-color: #FCB033;
+  }
+  80% {
+    background-color: #FA961B;
+  }
+  100% {
+    background-color: #FA8607;
+  }
+}
+@keyframes mnt {
+  0% {
+    background-color: #27408E;
+  }
+  20% {
+    background-color: #304faf;
+  }
+  40% {
+    background-color: #536cb5;
+  }
+  60% {
+    background-color: #7688bb;
+  }
+  80% {
+    background-color: #98a5c0;
+  }
+  100% {
+    background-color: #c0c6cb;
+  }
+}
+@keyframes isl {
+  0% {
+    background-color: #abf6c3;
+  }
+  25% {
+    background-color: #c5f9db;
+  }
+  50% {
+    background-color: #b1fdf7;
+  }
+  75% {
+    background-color: #aaecff;
+  }
+  100% {
+    background-color: #93e6ff;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -211,9 +268,6 @@ header .nav {
   width: 100%;
   margin: 0 auto;
 }
-header .nav h1 {
-  width: 45%;
-}
 @media (max-width: 500px) {
   header .nav {
     display: flex;
@@ -357,11 +411,29 @@ header .header-content h2 {
   background: #008080;
   border-radius: 10px;
   font-size: 1.8rem;
-  color: white;
+  color: black;
   margin-bottom: 9%;
 }
 @media (max-width: 500px) {
   .home .content-pick .btn {
     padding: 3%;
   }
+}
+.home .content-pick .btn-sun {
+  background-color: #A2CCDA;
+  animation-name: sun;
+  animation-duration: 5s;
+  animation-iteration-count: 10;
+}
+.home .content-pick .btn-mnt {
+  background-color: #c0c6cb;
+  animation-name: mnt;
+  animation-duration: 5s;
+  animation-iteration-count: 10;
+}
+.home .content-pick .btn-isl {
+  background-color: #abf6c3;
+  animation-name: isl;
+  animation-duration: 5s;
+  animation-iteration-count: 10;
 }

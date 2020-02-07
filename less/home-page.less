@@ -1,9 +1,10 @@
 
+
 header {
   margin: 30px 0%;
   .display (center, center){};
   flex-flow: column wrap;
-  .nav {
+    .nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -11,9 +12,6 @@ header {
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
-    h1{
-      width: 45%
-    }//h1
     @media @mob500 {
       display: flex;
       flex-flow: column wrap;
@@ -149,11 +147,29 @@ header {
       background: #008080;
       border-radius: 10px;
       font-size: 1.8rem;
-      color: white;
+      color: black;
       margin-bottom: 9%;
       @media @mob500 {
         padding: 3%;
-      }
+      }//btn
+    }//.destination
+    .btn-sun {
+      background-color: #A2CCDA;
+      animation-name: sun;
+      animation-duration: 5s;
+      animation-iteration-count: 10;
     }
-  }
+    .btn-mnt {
+      background-color: #c0c6cb;
+      animation-name: mnt;
+      animation-duration: 5s;
+      animation-iteration-count: 10;
+    }
+    .btn-isl {
+      background-color: #abf6c3;
+      animation-name: isl;
+      animation-duration: 5s;
+      animation-iteration-count: 10;
+    }
+  }//content-pick
 }// home
