@@ -1,1 +1,16 @@
 // Mixins in here
+
+.display (@justify, @align) {
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+.display-col (@justify, @align){
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: @justify;
+    align-items: @align;
+}
+
+@mob500: ~'(max-width: 500px)';
